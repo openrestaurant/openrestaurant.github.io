@@ -1,1 +1,1 @@
-Landing page for openrestaurant.io
+Landing page for open.restaurant
