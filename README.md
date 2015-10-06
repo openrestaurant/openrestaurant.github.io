@@ -1,1 +1,1 @@
-Landing page for open.restaurant
+Landing page for Open Restaurant
