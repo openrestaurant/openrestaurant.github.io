@@ -73,16 +73,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-  background: #EFD01B;
-  color: black;
+  background: #1A9AD6;
+  color: white;
   border-radius: 0;
   font-size: 14px;
   padding: 10px 20px;
   text-transform: uppercase;
+  border: 0;
   font-family: 'Open Sans', sans-serif;
+
+  &-pantheon {
+    background: #EFD01B;
+    color: black;
+  }
 
   &-download {
     background: #7CA719;
+    color: black;
   }
 }
 
