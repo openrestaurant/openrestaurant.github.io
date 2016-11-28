@@ -1,0 +1,29 @@
+.section {
+  margin-top: 4em;
+
+  &__header {
+    text-align: center;
+    margin-bottom: 2em;
+
+    h2 {
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: -15px;
+        bottom: auto;
+        left: 50%;
+        height: 3px;
+        width: 30px;
+        margin-left: -15px;
+        display: block;
+        background-color: $brand-primary;
+      }
+
+      a {
+        color: #333;
+      }
+    }
+  }
+}
