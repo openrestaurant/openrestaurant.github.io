@@ -14,6 +14,7 @@ $icon-font-path: '../fonts/';
 @import "components/hero";
 @import "components/section";
 @import "components/feature";
+@import "components/theme";
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -88,12 +89,16 @@ footer {
 .btn {
   background: $brand-primary;
   color: white;
-  border-radius: 0;
+  border-radius: 3px;
   font-size: 14px;
   padding: 10px 20px;
   text-transform: uppercase;
   border: 0;
   font-family: 'Open Sans', sans-serif;
+
+  &:hover {
+    color: white;
+  }
 
   &-pantheon {
     background: #EFD01B;

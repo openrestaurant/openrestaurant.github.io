@@ -1,0 +1,40 @@
+.theme {
+  padding: 0 1em;
+
+  &__links {
+    margin-top: 1em;
+    text-align: center;
+
+    a {
+      display: inline-block;
+      text-align: center;
+      margin: 0 0.5em;
+    }
+  }
+
+  &__sidebar {
+    padding: 1em;
+  }
+
+  &__pricing {
+    margin: 1em auto;
+    padding: 0 1em;
+    width: 190px;
+  }
+
+  &__price {
+    text-align: center;
+    font-size: 3.2em;
+    margin: 0;
+
+    sup {
+      font-size: 0.4em;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #eee;
+  }
+}
