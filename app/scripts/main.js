@@ -31,73 +31,73 @@
         node: document.getElementById('product-component-4590b06bcfb'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
-          "product": {
-            "buttonDestination": "checkout",
-            "variantId": "all",
-            "width": "240px",
-            "contents": {
-              "img": false,
-              "title": false,
-              "variantTitle": false,
-              "price": false,
-              "description": false,
-              "buttonWithQuantity": false,
-              "quantity": false
+          'product': {
+            'buttonDestination': 'checkout',
+            'variantId': 'all',
+            'width': '240px',
+            'contents': {
+              'img': false,
+              'title': false,
+              'variantTitle': false,
+              'price': false,
+              'description': false,
+              'buttonWithQuantity': false,
+              'quantity': false
             },
-            "text": {
-              "button": "BUY NOW"
+            'text': {
+              'button': 'BUY NOW'
             },
-            "styles": {
-              "product": {
-                "text-align": "left",
-                "@media (min-width: 601px)": {
-                  "max-width": "100%",
-                  "margin-left": "0",
-                  "margin-bottom": "50px"
+            'styles': {
+              'product': {
+                'text-align': 'left',
+                '@media (min-width: 601px)': {
+                  'max-width': '100%',
+                  'margin-left': '0',
+                  'margin-bottom': '50px'
                 }
               },
-              "title": {
-                "font-size": "26px"
+              'title': {
+                'font-size': '26px'
               },
-              "price": {
-                "font-size": "18px"
+              'price': {
+                'font-size': '18px'
               },
-              "compareAt": {
-                "font-size": "15px"
+              'compareAt': {
+                'font-size': '15px'
               }
             }
           },
-          "cart": {
-            "contents": {
-              "button": true
+          'cart': {
+            'contents': {
+              'button': true
             },
-            "styles": {
-              "footer": {
-                "background-color": "#ffffff"
+            'styles': {
+              'footer': {
+                'background-color': '#ffffff'
               }
             }
           },
-          "modalProduct": {
-            "contents": {
-              "variantTitle": false,
-              "buttonWithQuantity": false,
-              "quantity": false
+          'modalProduct': {
+            'contents': {
+              'variantTitle': false,
+              'buttonWithQuantity': false,
+              'quantity': false
             },
-            "styles": {
-              "product": {
-                "@media (min-width: 601px)": {
-                  "max-width": "100%",
-                  "margin-left": "0px",
-                  "margin-bottom": "0px"
+            'styles': {
+              'product': {
+                '@media (min-width: 601px)': {
+                  'max-width': '100%',
+                  'margin-left': '0px',
+                  'margin-bottom': '0px'
                 }
               }
             }
           },
-          "productSet": {
-            "styles": {
-              "products": {
-                "@media (min-width: 601px)": {
-                  "margin-left": "-20px"
+          'productSet': {
+            'styles': {
+              'products': {
+                '@media (min-width: 601px)': {
+                  'margin-left': '-20px'
                 }
               }
             }
