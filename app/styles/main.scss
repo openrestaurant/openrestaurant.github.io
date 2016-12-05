@@ -95,6 +95,7 @@ footer {
   text-transform: uppercase;
   border: 0;
   font-family: 'Open Sans', sans-serif;
+  letter-spacing: .3px;
 
   &:hover {
     color: white;
@@ -106,11 +107,11 @@ footer {
   }
 
   &-download {
-    background: #7CA719;
+    background: #78b657;
     color: white;
 
     &:hover {
-      background: lighten(#7CA719, 10);
+      background: lighten(#78b657, 10);
       color: white;
     }
   }
